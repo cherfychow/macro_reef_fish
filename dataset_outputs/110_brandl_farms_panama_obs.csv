@@ -1,0 +1,647 @@
+Abundance,Length,Family,Genus,Species,SamplingEventID,Latitude,Longitude,Depth,Day,Month,Year,DataID
+1,13.108,NA,Cephalopholis,cruentata,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,5.676,NA,Apogon,phenax,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,4.303,NA,Apogon,phenax,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.5149999999999997,NA,Phaeoptyx,sp,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.463,NA,Starksia,occidentalis,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.3579999999999997,NA,Coryphopterus,glaucofraenum,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.21,NA,Coryphopterus,glaucofraenum,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.1079999999999997,NA,Coryphopterus,eidolon,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.398,NA,Coryphopterus,eidolon,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.3270000000000004,NA,Coryphopterus,eidolon,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.495,NA,Coryphopterus,eidolon,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.1149999999999998,NA,Coryphopterus,eidolon,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.293,NA,Coryphopterus,eidolon,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.269,NA,Coryphopterus,eidolon,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.0460000000000003,NA,Coryphopterus,glaucofraenum,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.7890000000000001,NA,Coryphopterus,eidolon,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.373,NA,Lythrypnus,sp3,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.2810000000000001,NA,Lythrypnus,sp3,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.15,NA,Lythrypnus,sp3,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.238,NA,Lythrypnus,sp3,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.082,NA,Lythrypnus,sp3,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.7420000000000002,NA,Serranus,tigrinus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.435,NA,Coryphopterus,eidolon,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.21,NA,Coryphopterus,eidolon,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.6480000000000001,NA,Tigrigobius,saucrus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.405,NA,Serranus,tigrinus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.795,NA,Tigrigobius,saucrus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.449,NA,Lythrypnus,minimus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.677,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.007,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.343,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.191,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.8059999999999998,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.0859999999999999,NA,Tigrigobius,saucrus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.754,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,0.799,NA,Coryphopterus,eidolon,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.5780000000000003,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.133,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.0829999999999997,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.683,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.213,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.3280000000000003,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.107,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.164,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.83,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.989,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.823,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.7920000000000003,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.9309999999999998,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.021,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.9309999999999998,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.9969999999999999,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.449,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.198,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.3899999999999997,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.1400000000000001,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.954,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.818,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.932,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.871,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.349,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.491,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,0.9650000000000001,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.03,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.0010000000000003,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.847,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.716,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.3760000000000003,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.984,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.552,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.381,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.801,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,0.852,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,0.808,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,53.2,NA,Enchelycore,nigricans,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,9.545,NA,Rypticus,carpenteri,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,7.108,NA,Stegastes,planifrons,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,4.681,NA,Apogon,binotatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.867,NA,Phaeoptyx,sp,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.758,NA,Phaeoptyx,sp,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.075,NA,Phaeoptyx,sp,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.072,NA,Phaeoptyx,sp,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.5189999999999997,NA,Starksia,occidentalis,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.372,NA,Coryphopterus,eidolon,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.408,NA,Coryphopterus,eidolon,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.521,NA,Coryphopterus,eidolon,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.69,NA,Emblemariopsis,leptocirrus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.4060000000000001,NA,Risor,ruber,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.551,NA,Risor,ruber,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.1100000000000003,NA,Coryphopterus,eidolon,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.738,NA,Coryphopterus,eidolon,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.911,NA,Coryphopterus,glaucofraenum,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.004,NA,Coryphopterus,glaucofraenum,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.522,NA,Emblemariopsis,leptocirrus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.218,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.0949999999999998,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.867,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.1870000000000003,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.224,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.428,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.557,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.302,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.605,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.66,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.3579999999999997,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.136,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.34,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.066,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.229,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.597,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.161,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.941,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.899,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.991,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.259,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.748,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.2489999999999997,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.732,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.445,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.617,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.4219999999999997,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.545,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.246,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.6420000000000003,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.5780000000000003,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.606,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.842,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.1670000000000003,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.022,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.07,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.179,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.059,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.27,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.0629999999999997,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.192,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.8920000000000001,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.457,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.491,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.9579999999999997,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.32,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.27,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.186,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.554,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.15,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.071,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.0989999999999998,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.307,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.63,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.4739999999999998,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.1870000000000003,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.424,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.815,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.0940000000000003,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.1109999999999998,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.8289999999999997,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.271,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.48,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.69,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.634,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.114,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.261,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,4.856,NA,Apogon,binotatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.157,NA,Phaeoptyx,sp,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.732,NA,Phaeoptyx,sp,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.939,NA,Emblemariopsis,leptocirrus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.704,NA,Parablennius,marmoreus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.9050000000000002,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.294,NA,Tigrigobius,saucrus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.938,NA,Parablennius,marmoreus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.922,NA,Lythrypnus,spilus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.31,NA,Lythrypnus,minimus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.274,NA,Lythrypnus,minimus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.777,NA,Lythrypnus,nesiotes,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.737,NA,Emblemariopsis,leptocirrus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.6829999999999998,NA,Tigrigobius,saucrus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.3679999999999999,NA,Tigrigobius,saucrus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.229,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.059,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.3739999999999997,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.7510000000000003,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.121,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.8579999999999997,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.731,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.9989999999999999,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.169,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.8379999999999999,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.551,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.351,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.227,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.185,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.2600000000000002,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.581,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.5260000000000002,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.211,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.2239999999999998,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.9620000000000002,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.068,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.293,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.137,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.239,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.134,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.796,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.825,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.8739999999999999,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.536,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.428,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.4210000000000003,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.231,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.221,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.228,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.091,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.1510000000000002,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.9579999999999997,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.969,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.088,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.3890000000000002,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.32,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.45,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.234,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.272,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.048,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.449,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.0469999999999997,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.92,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.488,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.2399999999999998,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.555,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.969,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.303,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.2199999999999998,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.45,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.147,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.5789999999999997,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.0170000000000003,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.326,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.125,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.082,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.879,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.262,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.8239999999999998,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.925,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.952,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.527,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.087,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.175,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.0949999999999998,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.133,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.373,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.143,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.02,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.33,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.7289999999999999,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,14.386000000000001,NA,Abudefduf,saxatilis,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,13.549000000000001,NA,Abudefduf,saxatilis,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,6.131,NA,Apogon,binotatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,5.759,NA,Apogon,binotatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,5.522,NA,Apogon,binotatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,4.9670000000000005,NA,Apogon,binotatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,5.989,NA,Apogon,binotatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,5.144,NA,Apogon,binotatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.806,NA,Phaeoptyx,sp,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,4.382,NA,Phaeoptyx,sp,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,4.186,NA,Phaeoptyx,sp,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.526,NA,Phaeoptyx,sp,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.1420000000000003,NA,Phaeoptyx,sp,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.8739999999999997,NA,Phaeoptyx,sp,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.55,NA,Hypoplectrus,sp,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.9170000000000003,NA,Elacatinus,illecebrosus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.947,NA,Coryphopterus,eidolon,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.3279999999999998,NA,Starksia,occidentalis,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.8050000000000002,NA,Parablennius,marmoreus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.2479999999999998,NA,Coryphopterus,eidolon,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.016,NA,Tigrigobius,saucrus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.143,NA,Tigrigobius,saucrus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.257,NA,Tigrigobius,saucrus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.494,NA,Tigrigobius,saucrus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.6640000000000001,NA,Tigrigobius,saucrus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.558,NA,Tigrigobius,saucrus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.6780000000000002,NA,Tigrigobius,saucrus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.61,NA,Tigrigobius,saucrus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.489,NA,Tigrigobius,saucrus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.152,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.402,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.575,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.177,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.766,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.3600000000000003,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.702,NA,Tigrigobius,saucrus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.888,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,0.975,NA,Tigrigobius,saucrus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.5469999999999997,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.2880000000000003,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.503,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.696,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.0170000000000003,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.21,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.573,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.54,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.633,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.558,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.7960000000000003,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.6390000000000002,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.475,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.573,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.299,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.346,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.9829999999999997,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.981,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.353,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.029,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.318,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,0.8720000000000001,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.663,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.864,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.508,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.1239999999999997,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.569,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.3409999999999997,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.957,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.669,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.3200000000000003,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.586,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.628,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.825,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.289,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.729,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.221,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.605,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.532,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.5620000000000003,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.554,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.6559999999999997,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.444,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.62,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.633,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.756,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.076,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.489,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.097,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.286,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.215,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,0.8310000000000001,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.4829999999999997,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.702,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.705,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.878,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.702,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.238,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.8649999999999998,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.598,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.214,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.689,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.19,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.46,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.412,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.018,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,6.319,NA,Cephalopholis,cruentata,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,8.023,NA,Stegastes,planifrons,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,7.949,NA,Stegastes,planifrons,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,5.3740000000000006,NA,Apogon,binotatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,5.229,NA,Apogon,binotatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,6.109,NA,Apogon,phenax,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,5.311,NA,Apogon,binotatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,5.063000000000001,NA,Apogon,binotatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,6.314,NA,Apogon,phenax,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,4.726,NA,Apogon,binotatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,5.9479999999999995,NA,Apogon,binotatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,4.62,NA,Apogon,binotatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,4.828,NA,Apogon,binotatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,5.112,NA,Apogon,phenax,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,4.8340000000000005,NA,Apogon,binotatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,4.689,NA,Apogon,binotatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,4.516,NA,Apogon,binotatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.693,NA,Phaeoptyx,sp,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.7649999999999997,NA,Phaeoptyx,sp,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.5140000000000002,NA,Phaeoptyx,sp,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.821,NA,Phaeoptyx,sp,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.497,NA,Phaeoptyx,sp,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.1879999999999997,NA,Phaeoptyx,sp,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,4.2780000000000005,NA,Coryphopterus,eidolon,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.324,NA,Lythrypnus,nesiotes,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.7440000000000002,NA,Lythrypnus,spilus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.4300000000000002,NA,Lythrypnus,nesiotes,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.248,NA,Lythrypnus,nesiotes,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.2109999999999999,NA,Lythrypnus,nesiotes,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.24,NA,Lythrypnus,nesiotes,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.528,NA,Risor,ruber,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.576,NA,Risor,ruber,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.287,NA,Starksia,occidentalis,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.045,NA,Coryphopterus,eidolon,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.811,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.1559999999999997,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.4379999999999997,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.302,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.7920000000000003,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.509,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.193,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.773,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.2199999999999998,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.294,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.229,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.8780000000000001,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.6329999999999998,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.198,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.471,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.6940000000000002,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.927,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.5170000000000003,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.8440000000000003,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.52,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.327,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.065,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.302,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.032,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.163,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.6870000000000003,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.324,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.248,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.9170000000000003,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.85,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.582,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.387,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.287,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.9579999999999997,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.132,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.591,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.178,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.1109999999999998,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.013,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.0620000000000003,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.133,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.293,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.223,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.871,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.299,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.068,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.277,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.31,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.278,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.117,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.646,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.102,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.919,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.904,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.736,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.205,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.059,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.1,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.77,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.7920000000000003,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.436,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.098,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.001,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.583,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.117,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,0.9470000000000001,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.089,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.459,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.022,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.668,NA,Lucayablennius,zingaro,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.876,NA,Parablennius,marmoreus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.352,NA,Lythrypnus,spilus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.815,NA,Risor,ruber,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.721,NA,Risor,ruber,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.6,NA,Risor,ruber,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.353,NA,Lythrypnus,sp3,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.584,NA,Risor,ruber,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.847,NA,Risor,ruber,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.474,NA,Lythrypnus,sp3,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,4.272,NA,Hypoplectrus,unicolor,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.205,NA,Lythrypnus,minimus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.077,NA,Lythrypnus,spilus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.475,NA,Lythrypnus,sp3,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.556,NA,Coryphopterus,eidolon,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.759,NA,Risor,ruber,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.7469999999999999,NA,Lythrypnus,spilus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.586,NA,Parablennius,marmoreus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.2439999999999998,NA,Starksia,occidentalis,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.2659999999999996,NA,Coryphopterus,eidolon,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.538,NA,Coryphopterus,eidolon,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.895,NA,Tigrigobius,saucrus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.764,NA,Parablennius,marmoreus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.775,NA,Parablennius,marmoreus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.8950000000000005,NA,Phaeoptyx,sp,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.308,NA,Lythrypnus,minimus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.305,NA,Phaeoptyx,sp,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.441,NA,Phaeoptyx,xenus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.863,NA,Phaeoptyx,conklini,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.091,NA,Starksia,occidentalis,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.432,NA,Phaeoptyx,pigmentaria,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.126,NA,Starksia,occidentalis,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.583,NA,Tigrigobius,saucrus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.582,NA,Emblemariopsis,leptocirrus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.998,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.016,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.464,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.511,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.054,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.6809999999999998,NA,Emblemariopsis,leptocirrus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.37,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.411,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.29,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.537,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.055,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.9969999999999999,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.2359999999999998,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.3129999999999997,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.818,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.567,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.7890000000000001,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.989,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.3449999999999998,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.752,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.175,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.1559999999999997,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.4369999999999998,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.263,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.413,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.443,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.4050000000000002,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.228,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.9449999999999998,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.902,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.093,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.702,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.9620000000000002,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.3289999999999997,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.812,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.31,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.165,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.4989999999999997,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.9600000000000002,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.2,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.162,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.902,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.704,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.884,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.85,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.9170000000000003,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.2809999999999997,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.516,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.5390000000000001,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.857,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.0140000000000002,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.379,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.243,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.169,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.003,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.9469999999999998,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.0620000000000003,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.5829999999999997,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.053,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.884,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.356,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,0.8390000000000001,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,0.898,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.9609999999999999,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.975,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.447,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.128,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.2030000000000003,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.6469999999999998,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.093,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.8329999999999997,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.452,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.8809999999999998,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.027,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.468,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.919,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.982,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.2,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.8030000000000002,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.982,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.275,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.7449999999999999,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.488,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.137,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.809,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.633,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.128,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.893,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.044,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.2840000000000003,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.049,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.3630000000000004,NA,Coryphopterus,eidolon,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,5.053,NA,Phaeoptyx,sp,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.484,NA,Lythrypnus,nesiotes,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.637,NA,Lythrypnus,nesiotes,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.243,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.163,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.0100000000000002,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.019,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.346,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.4829999999999997,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.346,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.118,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.783,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.289,NA,Coryphopterus,personatus,Solarte,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.762,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.387,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.931,NA,Phaeoptyx,sp,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.351,NA,Phaeoptyx,sp,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.879,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.9219999999999997,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.262,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.397,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.758,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.02,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.105,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.355,NA,Coryphopterus,personatus,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.976,NA,Coryphopterus,eidolon,JuanPoint,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.302,NA,Coryphopterus,personatus,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.433,NA,Phaeoptyx,sp,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.4899999999999998,NA,Phaeoptyx,sp,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.854,NA,Phaeoptyx,sp,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,4.26,NA,Coryphopterus,glaucofraenum,PuntaRodriguez,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.159,NA,Coryphopterus,personatus,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,4.099,NA,Phaeoptyx,sp,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,4.4,NA,Phaeoptyx,sp,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,3.7310000000000003,NA,Phaeoptyx,sp,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,4.6240000000000006,NA,Phaeoptyx,sp,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,4.069,NA,Phaeoptyx,sp,Pastores,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,5.608,NA,Apogon,binotatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.341,NA,Lythrypnus,minimus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.347,NA,Lythrypnus,nesiotes,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.773,NA,Coryphopterus,eidolon,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,4.693,NA,Phaeoptyx,sp,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,4.2299999999999995,NA,Phaeoptyx,sp,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.237,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.912,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.088,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.319,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.206,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.863,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.0989999999999998,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.787,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.807,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.517,NA,Coryphopterus,personatus,PuntaSTRI,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,4.354,NA,Coryphopterus,eidolon,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.4899999999999998,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.2600000000000002,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,4.014,NA,Phaeoptyx,sp,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,1.923,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.6390000000000002,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
+1,2.481,NA,Coryphopterus,personatus,Coralde Basilio,9.35143,-82.2571,NA,NA,NA,2016,110_brandl_farms_panama
