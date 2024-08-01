@@ -20,7 +20,7 @@ rm(list=ls())
 dataID <- '133_hadjhammou_SERF'
 
 # make sure your working directory is set before running these lines
-dt <- read_csv('data_originals/133_hadjhammou_serf/SERF_FishSizeData_TL.csv')
+dt <- read_csv('dataset_originals/133_hadjhammou_serf/SERF_FishSizeData_TL.csv')
 
 # Structure check ---------------------------------------------------------
 

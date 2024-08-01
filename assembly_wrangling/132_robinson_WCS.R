@@ -20,7 +20,7 @@ rm(list=ls())
 dataID <- '132_robinson_WCS'
 
 # make sure your working directory is set before running these lines
-dt <- read_csv('./data_originals/132_robinson_WCS/fish_individuals.csv')
+dt <- read_csv('./dataset_originals/132_robinson_WCS/fish_individuals.csv')
 
 # Structure check ---------------------------------------------------------
 
@@ -104,6 +104,8 @@ dt %>% group_by(Project, Site) %>% summarise(nyear = n_distinct(Year)) %>% View
 dt %>% distinct(Project, Transect_width, Transect_length) %>% View
 # inconsistent within project, standardise it all to density
 dt <- mutate(dt, Abundance = 100 * Abundance / (Transect_width * Transect_length))
+# per 100 sq m
+
 
 unique(dt$Project)
 dt$Project <- str_remove_all(dt$Project, '\\s')
