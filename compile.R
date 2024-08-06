@@ -16,7 +16,7 @@ require(stringr)
 # COMPILE OBSERVATIONS
 
 # pull the file names for all the datasets
-PD_obs <- list.files(path = 'data_outputs', pattern = '_obs.csv', 
+PD_obs <- list.files(path = 'dataset_outputs', pattern = '_obs.csv', 
                      recursive = T, full.names = T)
 
 PD_dt <- as.list(rep('', length(PD_obs))) # empty list to populate
@@ -24,13 +24,18 @@ for (i in 1:length(PD_obs)) {
   PD_dt[[i]] <- read_csv(PD_obs[i]) # read each file in
 }
 
+# check errors
+lapply(PD_dt, problems)
+PD_dt[[8]] <- read.csv(PD_obs[8])
+View(PD_dt[[8]])
+
 PD_data <- bind_rows(PD_dt)
 rm(PD_dt, PD_obs)
 
 ## =====================================================================
 # COMPILE METADATA
 
-meta <- list.files(path = 'data_outputs', pattern = '_meta.xlsx', 
+meta <- list.files(path = 'dataset_outputs', pattern = '_meta.xlsx', 
                      recursive = T, full.names = T)
 
 PD_meta <- as.list(rep('', length(meta))) # empty list to populate
@@ -73,6 +78,10 @@ PD_meta <- bind_rows(metadt)
 
 View(PD_meta)
 View(PD_cite)
+
+write_csv(PD_meta, 'macro_reef_fish_meta.csv')
+write_csv(PD_data, 'macro_reef_fish_obs.csv')
+
 ## =====================================================================
 # VISUAL CHECK
 
@@ -94,11 +103,11 @@ world <- st_cast(world, to = 'MULTIPOLYGON')
 # by dataset ID
 allPD <- ggplot() +
   geom_sf(data = world, aes(group = admin), color='grey40', fill='grey95') +
-  geom_sf(data = points %>% filter(Duration > 1), 
-          aes(fill = Year), shape = 21, size = 2) +
+  geom_sf(data = points, 
+          aes(fill = DataID), shape = 21, size = 2) +
   coord_sf(crs = proj, ylim = c(-4366274.76, 4366274.76)) +
   theme_minimal() + guides(fill = 'none') +
-  scale_fill_viridis_c(option = 'C')
+  scale_fill_viridis_d(option = 'C')
 
 # ggsave(allPD, filename = "datamap_june.png", device = 'png', 
 #        dpi = 300, width = 210, height = 150, units = "mm")

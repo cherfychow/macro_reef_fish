@@ -20,6 +20,31 @@ dt %>% filter(species == 'ni') %>% View # omit
 dt  <- filter(dt, species != 'ni')
 sort(unique(dt$site_id))
 
+# standardise area
+dt <- mutate(dt, Abundance = case_when(Length < 7 & Year > 2021 ~ Abundance * 2.5,
+    Year <= 2021 ~ Abundance * 2.5, .default = Abundance),
+    # add upper and lower confidence for binned lengths
+    Length_lwr = case_when(Year < 2022 & Length == 4 ~ 1,
+    Year < 2022 & Length == 7 ~ 5, 
+    Year < 2022 & Length == 15 ~ 10,
+    Year < 2022 & Length == 25 ~ 20,
+    Year < 2022 & Length == 35 ~ 30,
+    Year < 2022 & Length == 45 ~ 40,
+    Year < 2022 & Length == 55 ~ 50,
+    Year < 2022 & Length == 65 ~ 60,
+    Year < 2022 & Length == 75 ~ 70, .default = NA),
+    Length_upr = case_when(Year < 2022 & Length == 4 ~ 5,
+    Year < 2022 & Length == 7 ~ 10, 
+    Year < 2022 & Length == 15 ~ 20,
+    Year < 2022 & Length == 25 ~ 30,
+    Year < 2022 & Length == 35 ~ 40,
+    Year < 2022 & Length == 45 ~ 50,
+    Year < 2022 & Length == 55 ~ 60,
+    Year < 2022 & Length == 65 ~ 70,
+    Year < 2022 & Length == 75 ~ 80, .default = NA),
+    Length = case_when(Year < 2022 & Length == 4 ~ 3, .default = Length))
+dt$Month <- 11
+
 # merge in site coordinates
 sites <- st_transform(sites, crs = 4326)
 sites <- st_coordinates(sites) %>% as_tibble %>% rename(Longitude = X, Latitude = Y) %>% 
@@ -35,7 +60,7 @@ dt_final <- dt %>% left_join(., sites[-3], by = c("Site_id" = "site_id")) %>%
         Species = word(Species, 2),  Depth = NA, DataID = '001_dyiigurra_macro') %>% 
     rename(Length = Size) %>% 
     group_by_all() %>% summarise(Abundance = n()) %>% ungroup %>% 
-    select(Abundance, Length, Family, Genus, Species, SamplingEventID, 
+    select(Abundance, Length, Length_lwr, Length_upr, Family, Genus, Species, SamplingEventID, 
            Latitude, Longitude, Depth, Day, Month, Year, DataID)
 View(dt_final)
 
@@ -47,4 +72,4 @@ dt_final$Genus[dt_final$Genus != 'Scarini' & str_detect(dt_final$Genus, 'idae$')
 distinct(dt_final, Family, Genus, Species) %>% View
 dt_final$Species[which(is.na(dt_final$Genus))] <- NA
 
-write_csv(dt_final, 'data_outputs/001_dyiigurra_macro_obs.csv')
+write_csv(dt_final, 'dataset_outputs/001_dyiigurra_macro_obs.csv')
