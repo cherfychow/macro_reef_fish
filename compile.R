@@ -79,8 +79,9 @@ PD_meta <- bind_rows(metadt)
 View(PD_meta)
 View(PD_cite)
 
-write_csv(PD_meta, 'macro_reef_fish_meta.csv')
-write_csv(PD_data, 'macro_reef_fish_obs.csv')
+# write_csv(PD_meta, 'macro_reef_fish_meta.csv')
+# write_csv(PD_data, 'macro_reef_fish_obs.csv')
+# write_csv(PD_cite, 'macro_reef_fish_citations.csv')
 
 ## =====================================================================
 # VISUAL CHECK
