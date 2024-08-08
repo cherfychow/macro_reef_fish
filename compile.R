@@ -26,10 +26,11 @@ for (i in 1:length(PD_obs)) {
 
 # check errors
 lapply(PD_dt, problems)
-PD_dt[[8]] <- read.csv(PD_obs[8])
-View(PD_dt[[8]])
+PD_dt[[9]] <- read.csv(PD_obs[9])
+View(PD_dt[[9]])
 
 PD_data <- bind_rows(PD_dt)
+summary(PD_data)
 rm(PD_dt, PD_obs)
 
 ## =====================================================================
@@ -68,11 +69,11 @@ for (i in 1:length(PD_meta)) {
   }
 
 # citation table
-PD_cite[[i]] <- tibble(DataID = rep(unname(PD_meta[[i]][1,2]), length(tempbib)), 
+PD_cite[[i]] <- tibble(DataID = rep(PD_meta[[i]][[1,2]], length(tempbib)), 
                        bibtex = tempbib)
 }
 
-PD_cite <- bind_rows(PD_cite)
+PD_cite <- bind_rows(PD_cite) %>% filter(!is.na(bibtex), bibtex != 'NA')
 bind_rows(metadt) %>% head %>% View
 PD_meta <- bind_rows(metadt)
 

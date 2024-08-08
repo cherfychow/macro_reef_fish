@@ -1,4 +1,4 @@
-Abundance,Length,Family,Genus,Species,SampleEventID,Latitude,Longitude,Depth,Day,Month,Year,DataID
+Abundance,Length,Family,Genus,Species,SamplingEventID,Latitude,Longitude,Depth,Day,Month,Year,DataID
 3,30,Balistidae,Pseudobalistes,flavimarginatus,2011_YAP-7_1,9.485622887,138.1207519,13,1,5,2011,020_noaa_micronesia
 2,20,Carangidae,Caranx,melampygus,2011_YAP-7_1,9.485622887,138.1207519,13,1,5,2011,020_noaa_micronesia
 2,15,Holocentridae,Myripristis,adusta,2011_YAP-7_1,9.485622887,138.1207519,13,1,5,2011,020_noaa_micronesia
