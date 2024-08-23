@@ -275,6 +275,7 @@ fb_valid <- left_join(fb_valid, fb_sp[1:2], by = c('worms_valid' = 'Species'))
 # isolate species that can't match
 manuals <- fb_valid %>% filter(is.na(SpecCode)) %>% select(!SpecCode) %>% 
   left_join(., fb_syn[c(1,3)], by = c("worms_valid" = "synonym"))
+# manuals <- read_csv('fb_id.csv')
 fb_valid <- fb_valid %>% filter(!is.na(SpecCode))
 
 dt_cleanfish$genus_valid[dt_cleanfish$worms_valid == 'Cantherhines maculata'] <- 'Canthidermis'
@@ -282,9 +283,10 @@ dt_cleanfish$worms_valid[dt_cleanfish$worms_valid == 'Cantherhines maculata'] <-
 fb_valid <- bind_rows(fb_valid, manuals) %>% arrange(worms_valid)
 
 fb_valid <- left_join(fb_valid, fb_sp[1:2], by = "SpecCode")
-fb_valid %>% select(!SpecCode) %>% rename(fishbase_valid = Species) %>% 
-  left_join(dt_cleanfish, ., by = "worms_valid") %>% relocate(fishbase_valid, .after = worms_valid) %>% View
+dt_cleanfish <- fb_valid %>% select(!SpecCode) %>% rename(fishbase_valid = Species) %>% 
+  left_join(dt_cleanfish, ., by = "worms_valid") %>% relocate(fishbase_valid, .after = worms_valid)
+summary(fb_valid)
 
-write_csv(dt_cleanfish, 'src/macro_reef_fish_clean.csv')
+write_csv(dt_cleanfish, 'macro_reef_fish_clean.csv')
 
 summary(dt_cleanfish)
