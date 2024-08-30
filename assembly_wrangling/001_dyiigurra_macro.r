@@ -6,7 +6,7 @@ require(readr)
 require(stringr)
 
 dt <- read_csv('../../lizard_fish_data/output/lizard_uvc_clean.csv')
-sites  <- st_read('/Users/cher/Downloads/dyiigurra_map/site_centroids.shp')
+sites  <- st_read('/Users/cherchow/Dropbox/StudySites/Dyiigurra/site_centroids.shp')
 sites$site_name[19] <- 'Turtle Beach'
 
 summary(dt)

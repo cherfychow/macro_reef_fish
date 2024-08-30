@@ -184,7 +184,7 @@ library(clipr)
 
 # 1. Convert data points into point spatial object
 # assumes your rawdata dataframe is called rawdata
-dt_coord <- dt_final %>% distinct(DataID, Longitude, Latitude) %>%
+dt_coord <- dt %>% distinct(DataID, Longitude, Latitude) %>%
   st_as_sf(., coords = c('Longitude', 'Latitude'), crs = 4326) %>% 
   group_by(DataID) %>%
   summarise(Latitude = st_union(geometry) %>% st_centroid %>% unlist %>% .[2],
