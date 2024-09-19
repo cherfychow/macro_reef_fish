@@ -119,6 +119,11 @@ dt_sp$worms_id[dt_sp$genus_sp == 'Atherinomorus rogaa'] <- 218168
 dt_sp$worms_id[dt_sp$genus_sp == 'Chlorurus spirulus'] <- 712772
 dt_sp$worms_id[dt_sp$genus_sp == 'Turrum gymnostethus'] <- 218392
 dt_sp$worms_id[dt_sp$genus_sp == 'Plectorhinchus picus'] <- 218555
+dt_sp$worms_id[dt_sp$genus_sp == 'Abalistes stellatus'] <- 219873
+dt_sp$worms_id[dt_sp$genus_sp == 'Abudefduf bengalensis'] <- 212885
+dt_sp$worms_id[dt_sp$genus_sp == 'Abudefduf sexfasciatus'] <- 159289
+dt_sp$worms_id[dt_sp$genus_sp == 'Abudefduf vaigiensis'] <- 212879
+dt_sp$worms_id[dt_sp$genus_sp == 'Sphyraena flavicauda'] <- 212051
 
 
 temp <- id2name(dt_sp$worms_id)
@@ -128,7 +133,8 @@ dt_sp <- temp %>% mutate(id = as.numeric(id))  %>%
   left_join(dt_sp, ., by = c('worms_id' = 'id'))
 
 dt <- dt_sp %>% rename(worms_valid = name) %>% select(genus_sp, worms_valid) %>% distinct %>%
-  left_join(dt, dt_sp, by = 'genus_sp')
+  left_join(dt, ., by = 'genus_sp')
+dt %>% filter(taxon_resolution != 'species') %>% View
 
 dt$worms_valid[which(is.na(dt$worms_valid))] <- dt$genus_sp[which(is.na(dt$worms_valid))]
 dt$genus_valid <- word(dt$worms_valid, 1)
@@ -137,13 +143,19 @@ dt$Genus <- NULL
 dt$genus_sp <- NULL
 dt$Family[dt$Family == 'Scaridae'] <- 'Labridae'
 
+dt %>% distinct(Family, genus_valid, worms_valid) %>%
+  arrange(Family, worms_valid) %>%View
+
 # Check sampling effort + structure --------------------------------------------------------
 
 str(dt)
 dt %>% distinct(Fullreef_id, Site_no, Transect_no, Year) %>%
   group_by(Year, Fullreef_id) %>% summarise(transectN = n()) %>% View
 # only 2 anomaly reef-years
-dt %>% group_by(Site) %>% summarise(yearN = n_distinct(Year)) %>% View
+dt %>% group_by(Fullreef_id) %>% summarise(yearN = n_distinct(Year)) %>% View
+
+# year = reporting year
+dt$Year <- dt$Year - 1
 
 # Prepare raw data --------------------------------------------------------
 
@@ -154,7 +166,6 @@ dt_final <- dt %>% mutate(DataID = dataID,
          Latitude, Longitude, Depth, Day, Month, Year, DataID) %>%
   rename(family_valid = Family) %>%
   arrange(Year, Month, Day, SamplingEventID, family_valid, genus_valid, worms_valid)
-Transect_ID
 View(dt_final)
 
 # Export final ------------------------------------------------------------
@@ -183,3 +194,4 @@ dt_coord <- dt_final %>% distinct(DataID, Longitude, Latitude) %>%
   summarise(Latitude = st_union(geometry) %>% st_centroid %>% unlist %>% .[2],
     Longitude = st_union(geometry) %>% st_centroid %>% unlist %>% .[1]) %>%
   st_drop_geometry()
+clipr::write_clip(dt_coord[1,2:3] |> as.vector())
