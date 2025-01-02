@@ -18,7 +18,7 @@ rm(list=ls())
 # already did formatting so this is just a cursory check for formatting etc.
 
 # make sure your working directory is set before running these lines
-dt <- read_excel('data_originals/114_gavrielbelmaker_aqaba/114_GavrielBelmaker_Aqaba_obs.xlsx', sheet = 2)
+dt <- read_excel('dataset_originals/114_gavrielbelmaker_aqaba/114_GavrielBelmaker_Aqaba_obs.xlsx', sheet = 2)
 
 # Structure organisation + check --------------------------------------------------
 
@@ -26,11 +26,14 @@ summary(dt)
 str(dt)
 nrow(dt) # check dimensions
 
-dt$StudyID <- '114_GavrielBelmaker_Aqaba'
+dt$DataID <- '114_GavrielBelmaker_Aqaba'
+dt$StudyID <- NULL
 dt %>% filter(is.na(Longitude)) %>% View
-dt$SampleDescription <- paste(dt$Plot, dt$SampleDescription, sep = "_")
+dt$SampleDescription <- with(dt, paste(Plot, SampleDescription, Day, Month, Year, sep = "_"))
 dt$Plot <- NULL
 dt$Longitude[which(is.na(dt$Longitude))] <- mean(dt$Longitude, na.rm = T)
+dt$Species  <- word(dt$Species, 2, -1)
+dt <- dt %>% rename(Depth = DepthElevation)
 
 summary(dt)
 str(dt)
@@ -71,14 +74,14 @@ rm(points, world, proj)
 
 # Prepare raw data --------------------------------------------------------
 dt_final <- dt %>% 
-  rename(SamplingEventID = SampleDescription, DataID = StudyID, Depth = DepthElevation) %>% 
+  rename(SamplingEventID = SampleDescription) %>% 
   arrange(Year, Month, Day, SamplingEventID) %>% 
   relocate(Abundance, Length, Family, Genus, Species, SamplingEventID, 
            Latitude, Longitude, Depth, Day, Month, Year, DataID) 
 
 # Export final ------------------------------------------------------------
 
-readr::write_csv(dt_final, 'data_outputs/114_gavrielbelmaker_aqaba_obs.csv')
+readr::write_csv(dt_final, 'dataset_outputs/114_gavrielbelmaker_aqaba_obs.csv')
 
 # load libraries
 library(sf)
