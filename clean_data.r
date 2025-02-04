@@ -45,6 +45,73 @@ allsp$Species[str_which(allsp$Genus, '\\s')] <- word(allsp$Genus[str_which(allsp
 allsp$Genus[str_which(allsp$Genus, '\\s')] <- word(allsp$Genus[str_which(allsp$Genus, '\\s')], 1)
 
 # ==============================================================================
+#  POST HOC DATE FIXES
+# ==============================================================================
+
+
+
+# missing dates, year
+
+dt_assemblage %>% filter(is.na(Year)) %>% distinct(DataID)
+
+
+dt_assemblage %>% filter(str_detect(DataID, '^028')) %>% distinct(DataID) %>% View
+View(dt_assemblage %>% filter(str_detect(DataID, '^028')) %>% distinct(DataID, Year, Month))
+dt_assemblage$Year[dt_assemblage$DataID == '028_caribbean_cuba'] <- 2009
+dt_assemblage$Year[dt_assemblage$DataID == '028_eastern_atlantic_cverde'] <- 2009
+dt_assemblage$Year[dt_assemblage$DataID == '028_eastern_atlantic_stome'] <- 2006
+dt_assemblage$Year[dt_assemblage$DataID == '028_mexico'] <- 2013
+dt_assemblage$Month[dt_assemblage$DataID == '028_mexico'] <- 10
+dt_assemblage$Year[dt_assemblage$DataID == '028_curacao'] <- 2013
+dt_assemblage$Year[dt_assemblage$DataID == '028_loyalty'] <- 2012
+dt_assemblage$Year[dt_assemblage$DataID == '028_pitcairn'] <- 2012
+dt_assemblage$Year[dt_assemblage$DataID == '028_agreen_palau'] <- 2000
+dt_assemblage$Year[dt_assemblage$DataID == '028_agreen_raja_ampat_2012'] <- 2009
+dt_assemblage$Year[dt_assemblage$DataID == '028_agreen_samoa'] <- 1995
+dt_assemblage$Year[dt_assemblage$DataID == '028_agreen_solomon_2008'] <- 2008
+dt_assemblage$Year[dt_assemblage$DataID == '028_flores_1993_michel'] <- 1993
+dt_assemblage$Year[dt_assemblage$DataID == '028_fiji_biomass_2013a'] <- 2003
+dt_assemblage$Year[dt_assemblage$DataID == '028_seychelles_alan_2017'] <- 2015
+dt_assemblage$Month[dt_assemblage$DataID == '028_seychelles_alan_2017'] <- 3
+dt_assemblage$Year[dt_assemblage$DataID == '028_revillagigedo_alan_2017'] <- 2016
+dt_assemblage$Month[dt_assemblage$DataID == '028_revillagigedo_alan_2017'] <- 4
+dt_assemblage$Year[dt_assemblage$DataID == '028_mozambique_alan_2017'] <- 2014
+dt_assemblage$Month[dt_assemblage$DataID == '028_mozambique_alan_2017'] <- 4
+dt_assemblage$Year[dt_assemblage$DataID == '028_easter_salaz'] <- 2011
+dt_assemblage$Month[dt_assemblage$DataID == '028_easter_salaz'] <- 3
+dt_assemblage$Year[dt_assemblage$DataID == '028_cocos'] <- 2009
+dt_assemblage$Month[dt_assemblage$DataID == '028_cocos'] <- 9
+dt_assemblage$Year[dt_assemblage$DataID == '027_friedlander_palau'] <- 2014
+dt_assemblage$Month[dt_assemblage$DataID == '027_friedlander_palau'] <- 9
+dt_assemblage$Month[dt_assemblage$DataID == '028_clipperton_alan_2017'] <- 3
+dt_assemblage$Year[dt_assemblage$DataID == '028_clipperton_alan_2017'] <- 2016
+dt_assemblage$Month[dt_assemblage$DataID == '028_new_caledonia_biomass_2013c1'] <- 11
+dt_assemblage$Month[dt_assemblage$DataID == '028_fpolynesia_biomass_2013'] <- 11
+dt_assemblage$Year[dt_assemblage$DataID %in% c('028_fpolynesia_biomass_2013', '028_new_caledonia_biomass_2013c1', '028_tonga_biomass_2013')] <- NA
+
+
+dt_assemblage <- dt_assemblage %>% mutate(Year = case_when(.default = Year,
+                                                           DataID == '017_brandl_uaecryptic' ~ 2018,
+                                                           DataID == '033_jennings_fiji' ~ 1995,
+                                                           DataID == '72_alvarezfilip_cozumel' ~ 2007,
+                                                           DataID == '104_brandl_crypticflux_belize' ~ 2016,
+                                                           DataID == '104_brandl_crypticflux_lizard' ~ 2018,
+                                                           DataID == '104_brandl_crypticflux_moorea' ~ 2017),
+                                          Month = case_when(.default = Month,
+                                                            DataID == '72_alvarezfilip_cozumel' ~ 12,
+                                                            DataID == '104_brandl_crypticflux_belize' ~ 3,
+                                                            DataID == '104_brandl_crypticflux_lizard' ~ 2,
+                                                            DataID == '104_brandl_crypticflux_moorea' ~ 10
+                                          ))
+
+patch <- read_csv('src/060_patch.csv')
+colnames(dt_assemblage)
+for (i in 1:nrow(patch)) {
+  dt_assemblage[which(dt_assemblage$SamplingEventID == patch$SamplingEventID[i]), 9:11] <- list(patch$Day[i], patch$Month[i], patch$Year[i])
+}
+
+
+# ==============================================================================
 # CLEAN GENUS
 # ==============================================================================
 
