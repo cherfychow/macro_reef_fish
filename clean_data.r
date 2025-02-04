@@ -446,3 +446,12 @@ summary(dt_cleanfish)
 dt_cleanfish %>% filter(str_detect(taxon_resolution, 'specified')) %>% View
 
 write_csv(dt_cleanfish, 'macro_reef_fish_clean.csv')
+
+
+# ==============================================================================
+# CLEAN METADATA
+# ==============================================================================
+
+sort(unique(dt_assemblage$DataID)) == sort(unique(dt_meta$DataID)) # something went wrong at 51
+tibble(data = sort(unique(dt_assemblage$DataID))[51:88], 
+       meta = sort(unique(dt_meta$DataID))[51:88]) %>% View
