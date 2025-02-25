@@ -110,6 +110,18 @@ for (i in 1:nrow(patch)) {
   dt_assemblage[which(dt_assemblage$SamplingEventID == patch$SamplingEventID[i]), 9:11] <- list(patch$Day[i], patch$Month[i], patch$Year[i])
 }
 
+dt_hi <- dt_assemblage %>% filter(DataID == '028_hawaii')
+dt_assemblage <- dt_assemblage %>% filter(DataID != '028_hawaii')
+dt_hi$transect_id <- str_extract(dt_hi$SamplingEventID, '\\d{4,}$')
+hi_date <- readxl::read_excel('src/AF_hawaii_fromDBarneche_dates.xlsx')
+hi_date$Month <- month(hi_date$month_year)
+hi_date$Year <- year(hi_date$month_year)
+
+dt_hi <- dt_hi %>% select(-Month, -Year)
+dt_hi$transect_id <- as.numeric(dt_hi$transect_id)
+dt_hi <- hi_date %>% select(transect_id, Month, Year) %>% left_join(dt_hi, ., by = 'transect_id')
+summary(dt_hi)
+dt_assemblage <- bind_rows(dt_assemblage, dt_hi)
 
 # ==============================================================================
 # CLEAN GENUS
