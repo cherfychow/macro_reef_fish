@@ -8,6 +8,7 @@
 # Set up ------------------------------------------------------------------
 # load the necessary packages
 require(dplyr)
+require(tidytable)
 require(ggplot2)
 require(readr)
 require(stringr)
@@ -18,30 +19,26 @@ rm(list=ls())
 dataid <- '060_smallhornwest_tonga'
 
 # make sure your working directory is set before running these lines
-dt <- read_delim('data_originals/060_smallhornwest_tonga/Smallhorn-West-etal_2020_rawdata.txt')
-og_dt <- dt
-View(dt)
-str(dt)
+dt <- read_excel('dataset_originals/060_smallhornwest_tonga/tonga_reef_fish_surveys_2017_2018_fishbelt_25_05_28.xlsx', sheet = 4)
+dt2 <- read_excel('dataset_originals/060_smallhornwest_tonga/tonga_reef_fish_surveys_2023_2024_fishbelt_25_05_28.xlsx', sheet = 4)
+
+colnames(dt)
+dt <- bind_rows(dt, dt2) %>% 
+  select(Site, Latitude, Longitude, Year, Month, Day, 
+  Depth, starts_with('Transect'), `Fish family`, `Fish genus`, `Fish taxon`, Size, Count)
+rm(dt2)
+
+# transform to counts to account for 2 pass method
+dt <- dt %>% filter(!`Transect width` == 'Mixed: < 10cm @ 2m, >= 10cm @ 5m') %>%
+  mutate(Abundance = case_when(`Transect width` == '5m' ~ Count,
+                               `Transect width` == '2m' ~ Count*2.5,
+                               `Transect width` == '1m' ~ Count*5))
+unique(dt$`Transect length surveyed`)
+dt$Abundance <- with(dt, (Abundance/`Transect length surveyed`)*50)
+# densities for 50 * 5 m
+colnames(dt) <- str_replace_all(colnames(dt), '\\s', '\\_')
+dt <- dt %>% rename(Family = Fish_family, Length = Size) %>% select(-Count)
 summary(dt)
-
-# Structure organisation --------------------------------------------------
-
-dt <- dt %>% select(`Ind No [#]`, `l [cm]`, Family, Species, Site, `Transect no`, `Length [m]`, `Width [m]`, `Date/Time (Start)`, Latitude, Longitude, `Depth water [m]`)
-
-colnames(dt)[c(1,2,12)] <- c('Abundance', 'Length', 'Depth')
-
-# dates need to be coerced
-dt$Day <- day(dt$`Date/Time (Start)`) %>% as.integer()
-dt$Month <- month(dt$`Date/Time (Start)`) %>% as.integer()
-dt$Year <- year(dt$`Date/Time (Start)`) %>% as.integer
-dt$`Date/Time (Start)` <- NULL
-
-summary(dt) # check transect width consistency...
-dt %>% filter(is.na(`Width [m]`)) %>% View # at the same site in 2017
-dt %>% filter(Site == 'Matamaka MS1', `Transect no` == 365) %>% View
-dt %>% filter(`Transect no` == 365) %>% View
-dt <- dt %>% filter(`Transect no` != 365) # filter out this transect
-dt$Abundance <- dt$Abundance / dt$`Width [m]` * 5
 
 # Structure check ---------------------------------------------------------
 
@@ -53,24 +50,10 @@ str(dt) # check structure
 # logical?
 summary(dt[,c('Year', 'Month', 'Day')]) # yes
 
-summary(dt)
-# Secondary fields such as elevation or depth will normally be numeric unless in a treatment format. NA
-# Taxonomic fields must be characters or factors? Y
-
 # Primary field check -----------------------------------------------------
 
 # ABUNDANCES
-# No negative values, zeroes, or NAs in abundance/biomass fields.
-dt %>% filter(is.na(Length))
-dt %>% filter(is.na(Abundance)) %>% View # blanks in biomass? biomass more complete
-dt$Abundance[which(is.na(dt$Abundance))] <- 1 / dt$`Width [m]`[which(is.na(dt$Abundance))] * 5 # there is length data, so put 1 for the occurrence at least
-min(dt$Abundance, na.rm=T) # no zeroes? Y
-min(dt$Length, na.rm=T) # no zeroes? Y
-dt %>% filter(Length <= 0) %>% View
-# a lot of unmeasurable lengths
-dt %>% filter(Length > 100) %>% View
-# only one unreasonable record
-dt <- dt[-which(dt$Species == 'Zebrasoma veliferum' & dt$Length == 211), ]
+dt %>% filter(Size > 100) %>% View
 
 # LAT LONG
 library(rnaturalearth)
@@ -91,44 +74,71 @@ rm(points, world, proj)
 # Taxonomic field check ---------------------------------------------------
 
 # No NAs in taxonomic fields, remove all non-organism records
-sum(is.na(dt$Species) + 0) == 0
-sum(str_detect(dt$Species, '^\\s+$') + 0) == 0
+sum(is.na(dt$Fish_taxon) + 0) == 0
+sort(unique(dt$Fish_taxon))
 
-sort(unique(dt$Species))
+dt$Species <- word(dt$Fish_taxon, 2, -1)
+dt$Species[is.na(dt$Species)] <- 'sp'
+sort(unique(dt$Fish_genus))
 
-replace = c('sp\\.' = 'sp',
-            '\\?' = ' ',
-            'arueus' = 'aureus',
-            'Red with tailspot' = 'sp1',
-            'Cheiliodipterus' = 'Cheilodipterus',
-            'Chormis' = 'Chromis',
-            'Juvenile scarid' = 'Scaridae sp',
-            'dicki$' = 'dickii', 
-            'Remora' = 'Echeneidae',
-            'Thalossoma' = 'Thalassoma')
+dt <- dt %>% rename(Genus = Fish_genus)
+dt %>% distinct(Family, Genus, Species) %>% filter(Species == 'sp') %>% View
 
-dt$Species <- str_replace_all(dt$Species, replace)
-dt$Genus <- word(dt$Species, 1) %>% str_to_title
-sort(unique(dt$Genus))
-dt$Genus[str_which(dt$Genus, 'idae$')] <- NA
-dt$Species <- word(dt$Species, 2)
+# match with species table
+if (exists('dt_sp') == F) {
+  dt_sp <- read_csv('macro_reef_fish_sp.csv')
+}
+
+dt %>% distinct(Family, Genus, Species) %>% 
+  anti_join(., dt_sp, by = c('Family', 'Genus', 'Species')) %>% View
+# without family has better matches
+  dt %>% distinct(Genus, Species) %>% 
+  anti_join(., dt_sp, by = c('Genus', 'Species')) %>% View
+
+# match with the species table and then fill in validation gaps
+dt <- dt_sp %>% distinct(Family, Genus, Species, worms_valid, fishbase_valid, .keep_all = T) %>%
+select(taxaID, Family, Genus, Species, genus_sp, worms_valid, fishbase_valid) %>%
+left_join(dt, ., by = c('Family', 'Genus', 'Species'), relationship = 'many-to-one')
+
+summary(dt)
+
+sp <- dt %>% distinct(Family, Genus, Species, taxaID:fishbase_valid) %>% 
+  filter(is.na(taxaID)) %>% select(Family, Genus, Species)
+View(sp)
+sp <- dt_sp %>% distinct(Genus, Species, worms_valid, fishbase_valid, .keep_all = T) %>%
+  select(taxaID, Genus, Species, genus_sp, worms_valid, fishbase_valid) %>%
+  left_join(sp, ., by = c('Genus', 'Species'))
+sp <- sp %>% filter(!is.na(taxaID))
+
+for (i in 1:nrow(sp)) {
+  dt$taxaID[dt$Genus == sp$Genus[i] & dt$Species == sp$Species[i]] <- sp$taxaID[i]
+}
+dt$taxaID[dt$Family == 'Scombridae' & dt$Species == 'sp'] <- 3327
+dt$taxaID[dt$Family == 'Scaridae' & dt$Species == 'sp'] <- 3248
+
+dt %>% distinct(Family, Genus, Species, taxaID:fishbase_valid) %>% 
+  filter(is.na(taxaID)) %>% select(Family, Genus, Species)
+
+summary(dt)
+rm(sp)
+
+dt$Site <- str_remove_all(dt$Site, '\\s')
 
 # Prepare raw data --------------------------------------------------------
 
 # check sampling structure
-dt %>% group_by(Site) %>% summarise(transectN = n_distinct(`Transect no`), yearN = n_distinct(Year)) %>% View
+dt %>% group_by(Site) %>% summarise(transectN = n_distinct(Transect_number), yearN = n_distinct(Year)) %>% View
 # not actually a time series
 
+colnames(dt)
 dt_final <- dt %>% mutate(DataID = dataid,
-                          SamplingEventID = paste(Site, `Transect no`, sep = "_")) %>% 
-  mutate(Year = NA, Month = NA, Day = NA) %>% # remove since it's not a time-series
+                          SamplingEventID = paste(Year, Month, Day, Site, Transect_number, sep = '_')) %>% 
   select(Abundance, Length, Family, Genus, Species, SamplingEventID, 
            Latitude, Longitude, Depth, Day, Month, Year, DataID)
 
-
 # Export final ------------------------------------------------------------
 
-write_csv(dt_final, paste0('data_outputs/', dataid, '_obs.csv'))
+write_csv(dt_final, paste0('dataset_outputs/', dataid, '_obs.csv'))
 
 # Convex Hull for centroid ------------------------------------------------
 
