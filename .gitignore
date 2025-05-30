@@ -4,7 +4,8 @@
 Icon?
 
 # hide original data files
-/dataset_originals/
+./dataset_originals/
+./dataset_outputs/
 *.xlsx
 *.png
 
