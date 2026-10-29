@@ -17,6 +17,6 @@ Taxonomic records are allowed at any resolution, from Order to species. Some dat
 
 ### Data hierarchy
 
-- Dataset (`DataID`)
-- Sampling event (`SamplingEventID`): a survey unit occurring at a site at a given time. For some datasets, it may consist of multiple replicates (e.g. a set of 5 transects at different depths), but it **must** not vary across space or time. 
-- Data record (row): A record of a species with a given abundance and length.
+- **Dataset** (`DataID`)
+- **Sampling event** (`SamplingEventID`): a survey unit occurring at a site at a given time. For some datasets, it may consist of multiple replicates (e.g. a set of 5 transects at different depths), but it **must** not vary across space or time. 
+- **Data record** (row): A record of a species with a given abundance and length.
